@@ -1,0 +1,14 @@
+if(!window._anxij) {
+    window._anxij = [];
+}
+
+// Parameters to relay to ratbait
+window._anxij.push({timestamp:1518438618000, datacenter_id:5, ip_address:"180.244.2.172", auction_id_64:"5083504590731629696"});
+
+var n= document.createElement("script");
+n.src="//acdn.adnxs.com/ij/static/18/ced.js";
+n.type="text/javascript";
+n.async=true;
+var head = document.head || document.documentElement.childNodes[0];
+head.appendChild(n);
+
